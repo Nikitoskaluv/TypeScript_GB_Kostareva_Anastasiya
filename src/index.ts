@@ -4,8 +4,11 @@ import { renderUserBlock } from './user.js';
 import { renderToast } from './lib.js';
 
 window.addEventListener('DOMContentLoaded', () => {
-    renderUserBlock('Rfhty Warren', '/img/avatar.png', 3);
-    renderSearchFormBlock();
+    renderUserBlock('Rfhty Warren', './img/avatar.png', 3);
+
+
+
+    renderSearchFormBlock('', '');
     renderSearchStubBlock();
     renderToast(
         { text: 'Это пример уведомления. Используйте его при необходимости', type: 'success' },
