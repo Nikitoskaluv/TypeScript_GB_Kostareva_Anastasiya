@@ -1,0 +1,31 @@
+{
+  "name": "typescript_gb_kostareva_anastasiya",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "rm -rf public/scripts && tsc",
+    "build:dev": "rm -rf public/scripts && tsc -p tsconfig-dev.json",
+    "start": "http-server -p 3000",
+    "lint": "eslint src --ext .js --ext .ts",
+    "lint-fix": "eslint src --ext .js --ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikitoskaluv/TypeScript_GB_Kostareva_Anastasiya.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikitoskaluv/TypeScript_GB_Kostareva_Anastasiya/issues"
+  },
+  "homepage": "https://github.com/Nikitoskaluv/TypeScript_GB_Kostareva_Anastasiya#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "eslint": "^8.8.0",
+    "http-server": "^14.1.0",
+    "typescript": "^4.5.5"
+  }
+}
